@@ -43,7 +43,7 @@ Warning: findDOMNode is deprecated in StrictMode. findDOMNode was passed an inst
 
 ```cmd
 git clone https://github.com/ssaracut/reactnd-project-would-you-rather.git
-npm run install
+npm install
 npm run start
 ```
 
