@@ -6,6 +6,47 @@ The `_DATA.js` file represents a fake database and methods that let you access t
 
 Using the provided starter code, you'll build a React/Redux front end for the application. We recommend using the [Create React App](https://github.com/facebook/create-react-app) to bootstrap the project.
 
+## Notes
+
+Semantic UI seems to have a bug and throws the following error:
+
+```
+Warning: findDOMNode is deprecated in StrictMode. findDOMNode was passed an instance of RefFindNode which is inside StrictMode. Instead, add a ref directly to the element you want to reference. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-find-node
+    at div
+    at RefFindNode (http://localhost:3000/static/js/vendors~main.chunk.js:388:35)
+    at Ref (http://localhost:3000/static/js/vendors~main.chunk.js:321:24)
+    at Dropdown (http://localhost:3000/static/js/vendors~main.chunk.js:76418:29)
+    at Select
+    at div
+    at FormField (http://localhost:3000/static/js/vendors~main.chunk.js:65060:24)
+    at FormSelect (http://localhost:3000/static/js/vendors~main.chunk.js:65419:23)
+    at form
+    at Form (http://localhost:3000/static/js/vendors~main.chunk.js:64747:29)
+    at div
+    at CardContent (http://localhost:3000/static/js/vendors~main.chunk.js:84186:24)
+    at div
+    at Card (http://localhost:3000/static/js/vendors~main.chunk.js:84014:29)
+    at SignIn (http://localhost:3000/static/js/main.chunk.js:2646:3)
+    at Connect(SignIn) (http://localhost:3000/static/js/vendors~main.chunk.js:52721:75)
+    at div
+    at GridRow (http://localhost:3000/static/js/vendors~main.chunk.js:65762:24)
+    at div
+    at Grid (http://localhost:3000/static/js/vendors~main.chunk.js:65549:22)
+    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:55198:30)
+    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:54818:35)
+    at App (http://localhost:3000/static/js/main.chunk.js:1153:3)
+    at Connect(App) (http://localhost:3000/static/js/vendors~main.chunk.js:52721:75)
+    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:52434:20)
+```
+
+## How to install and run
+
+```cmd
+git clone https://github.com/ssaracut/reactnd-project-would-you-rather.git
+npm run install
+npm run start
+```
+
 ## Data
 
 There are two types of objects stored in our database:
